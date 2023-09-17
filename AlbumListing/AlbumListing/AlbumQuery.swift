@@ -48,7 +48,7 @@ final class AlbumQuery: ObservableObject {
             case .network:
                 return "A network error occurred."
             case .parsing:
-                return "Unable to parse server response."
+                return "Unable to parse server response." 
             case .unknown:
                 return "An unknown error occurred"
             }
